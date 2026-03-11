@@ -1,4 +1,4 @@
-  🎉 CelebrationHub – Full Stack E-Commerce Celebration Store
+  🎉 _**CelebrationHub – Full Stack E-Commerce Celebration Store**_
 
 > A modern **Full-Stack E-Commerce Web Application** for purchasing celebration décor, gifts, and event packages across Sri Lanka.
 
@@ -174,6 +174,7 @@ After placing an order, the system generates:
 # ⚙ Backend Architecture
 
 The backend follows **Spring Boot layered architecture**.
+![Backend](screenshots/backend.png)
 
 ```
 Controller
@@ -185,56 +186,7 @@ Repository
 Database
 ```
 
-### Controller Layer
-
-Handles HTTP requests.
-
-Example:
-
-```
-ProductController
-OrderController
-```
-
-Example endpoint:
-
-```
-GET /api/products
-```
-
----
-
-### Service Layer
-
-Contains business logic.
-
-Examples:
-
-```
-ProductService
-OrderService
-```
-
-Responsibilities:
-
-* Product retrieval
-* Order processing
-* Business rules
-
----
-
-### Repository Layer
-
-Handles database communication using **Spring Data JPA**.
-
-Examples:
-
-```
-ProductRepository
-OrderRepository
-```
-
----
+ 
 
 # 🗄 Database Design
 
